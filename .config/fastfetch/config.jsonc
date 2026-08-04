@@ -1,0 +1,116 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "kitty",
+    "width": 35,
+    "height": 18,
+    "source": "/home/tadeooo/.config/fastfetch/snorlaxito.png",
+    "padding": {
+      "right": 4
+    }
+  },
+
+  "display": {
+    "separator": " 󰇙 "
+  },
+
+  "modules": [
+    "break",
+
+    {
+      "type": "title",
+      "color": {
+        "user": "blue",
+        "at": "white",
+        "host": "cyan"
+      }
+    },
+
+    {
+      "type": "os",
+      "key": "󰣇 OS"
+    },
+
+    {
+      "type": "kernel",
+      "key": "󰒋 Kernel"
+    },
+
+    {
+      "type": "packages",
+      "key": "󰏖 Packages"
+    },
+
+    {
+      "type": "shell",
+      "key": " Shell"
+    },
+
+    {
+      "type": "terminal",
+      "key": " Terminal"
+    },
+
+    {
+      "type": "wm",
+      "key": " WM"
+    },
+
+    {
+      "type": "theme",
+      "key": "󰉼 Theme"
+    },
+
+    {
+      "type": "icons",
+      "key": "󰀻 Icons"
+    },
+
+    "break",
+
+    {
+      "type": "cpu",
+      "key": " CPU"
+    },
+
+    {
+      "type": "gpu",
+      "key": "󰢮 GPU"
+    },
+
+    {
+      "type": "memory",
+      "key": "󰍛 RAM"
+    },
+
+    {
+      "type": "disk",
+      "key": " Disk"
+    },
+
+    "break",
+
+    {
+      "type": "uptime",
+      "key": "󰅐 Uptime"
+    },
+
+    {
+      "type": "datetime",
+      "key": "󰥔 Date"
+    },
+
+    {
+      "type": "media",
+      "key": "󰎆 Playing"
+    },
+
+    "break",
+
+    {
+      "type": "colors",
+      "paddingLeft": 2
+    }
+  ]
+}

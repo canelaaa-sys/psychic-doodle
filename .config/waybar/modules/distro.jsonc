@@ -1,0 +1,43 @@
+{
+  "custom/distro": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "shutdown now",
+    "on-click-right": "reboot"
+  },
+  "custom/terminal": {
+    "format": "󰆍",
+    "on-click": "kitty",
+    "tooltip": false
+  },
+  //"custom/code": {
+    //"format": "󰨞",
+    //"on-click": "code",
+    //"tooltip": false
+  //},
+  //"custom/obsidian": {
+    //"format": "󰹕",
+    //"on-click": "obsidian",
+    //"tooltip": false
+  //},
+  //"custom/office": {
+    //"format": "󰏆",
+    //"on-click": "onlyoffice-desktopeditors",
+    //"tooltip": false
+  //},
+  "custom/files": {
+    "format": "",
+    "on-click": "dolphin",
+    "tooltip": false
+  },
+  "custom/spotify": {
+    "format": "",
+    "on-click": "com.spotify.Client --audio-api=pulseaudio",
+    "tooltip": false
+  },
+  "custom/browser": {
+    "format": "",
+    "on-click": "firefox",
+    "tooltip": false
+  }
+}

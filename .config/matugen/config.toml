@@ -1,0 +1,23 @@
+[config]
+reload_apps = false
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/waybar-colors.css"
+output_path = "~/.config/waybar/tokens/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty.conf"
+output_path = "~/.config/kitty/colors-matugen.conf"
+post_hook = "kill -SIGUSR1 $(pgrep kitty)"
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprcolors.lua'
+output_path = '~/.config/hypr/modules/colors.lua'
+post_hook = 'hyprctl reload'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
